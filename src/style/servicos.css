@@ -1,0 +1,101 @@
+#quem-somos-content {
+    width: 100%;
+    border-radius: 25px;
+    padding: 25px;
+    background-color: #474f95;
+}
+.section-title{
+    text-align: center;
+
+}
+#rede-social {
+    display: inline-block;
+    vertical-align: center;
+    text-align: flex;
+}
+
+.title {
+    text-align: auto;
+    
+}
+.buttons{
+    background-color: brown;
+
+}
+
+#rede-social img{
+    
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    width: 50%;
+}
+#mkt{
+        display: inline-block;
+        vertical-align: top;
+        text-align: flex;
+        align-items:flex;
+    }
+    
+
+
+ #mkt img{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    width: 50%;
+
+ }   
+ #cobertura{
+    display: inline-block;
+    vertical-align: top;
+    text-align: flex;
+}
+
+
+
+
+#cobertura img{
+float: left;
+border: transparent thin solid;
+padding: 5px;
+margin: 0px 10px 10px 0;
+width: 50%;
+
+} 
+#desing{
+    display:inline-block;
+    vertical-align: top;
+    text-align: flex;
+}
+
+
+#desing img{
+float: left;
+border: transparent thin solid;
+padding: 5px;
+margin: 0px 10px 10px 0;
+width: 50%;
+
+} 
+@media screen and (max-width: 770px){
+
+    #desing img{
+
+        width: 100%;
+    }
+    #cobertura img{
+
+        width: 100%;
+    }
+    #mkt img{
+
+        width: 100%;
+    }
+    #rede-social img{
+        width: 100%;
+}
+
+}

@@ -1,0 +1,59 @@
+/* Centralizar o formulário */
+
+.titulo-secao{
+    min-height: calc(20vh - 99px);
+    display: flex;
+    justify-content: center;
+    color:rgb(211, 82, 71);
+    font-size: 1.5rem;
+    
+   }
+.contato form {
+    max-width: 3000px; /* Definir uma largura máxima para o formulário */
+    margin: 0 auto; /* Centraliza o formulário */
+    padding: 1rem; /* Adicionar um preenchimento ao redor do formulário */
+    background-color: #474f95; /* Definir uma cor de fundo para destacar */
+    border-radius: 20px; /* Adicionar bordas arredondadas */
+}
+
+/* Reduzir tamanho da fonte e espaçamento dos inputs */
+.contato label {
+    font-size: 1rem; /* Reduzir o tamanho da fonte */
+}
+
+.contato input,
+.contato select,
+.contato textarea {
+    padding: 8px; /* Diminuir o padding para reduzir o tamanho */
+    font-size: 1rem; /* Reduzir o tamanho da fonte */
+    width: 100%; /* Definir a largura como 100% para melhor ajuste */
+    margin-bottom: 1rem; /* Adicionar um espaçamento menor entre os campos */
+}
+
+/* Ajustar o tamanho do botão */
+.contato .btn {
+    width: 100%;
+    padding: 0.5rem 1rem; /* Reduzir o tamanho do botão */
+    font-size: 1rem; /* Ajustar o tamanho da fonte do botão */
+    background-color: rgb(211, 82, 71); /* Cor do botão */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contato .btn:hover {
+    background-color: #d4c6ac; /* Cor ao passar o mouse */
+}
+.btn.secondary-btn {
+    display: block;
+    gap: 24px;
+    background-color:transparent;
+}
+.form{
+display: flex;
+margin-top: 15px;
+}
+
+.form .email {
+    margin-right: 15px;
+}
